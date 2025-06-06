@@ -4,6 +4,7 @@ import my_character
 import random
 import time
 
+"""oh hello there"""
 
 def main():
     # turn on pygame
