@@ -1,0 +1,144 @@
+FUNISH ME HARDER - ASSETS NEEDED
+=====================================
+
+This file lists all visual and audio assets needed to fully implement
+the fighting game. Currently the game uses colored rectangles as placeholders.
+
+CHARACTER SPRITES & ANIMATIONS
+==============================
+
+BASE CHARACTER (Player 1 & 2):
+- character_idle_01.png through character_idle_08.png (60x80 each)
+- character_walk_01.png through character_walk_06.png (60x80 each)
+- character_run_01.png through character_run_08.png (60x80 each)
+- character_jump_01.png through character_jump_04.png (60x80 each)
+- character_fall_01.png through character_fall_02.png (60x80 each)
+- character_crouch.png (60x60)
+- character_landing.png (60x80)
+
+CHARACTER ATTACKS:
+- character_light_attack_01.png through character_light_attack_06.png (80x80)
+- character_heavy_attack_01.png through character_heavy_attack_10.png (100x80)
+- character_up_special_01.png through character_up_special_08.png (80x100)
+- character_down_special_01.png through character_down_special_10.png (80x60)
+
+CHARACTER EFFECTS:
+- character_hit_flash.png (60x80) - White overlay for hit effect
+- character_damage_sparks.png (32x32) - Impact particles
+- character_shadow.png (80x20) - Drop shadow under character
+
+HITBOX & EFFECT VISUALS
+=======================
+- hitbox_attack_glow.png (50x50) - Red attack hitbox overlay
+- hitbox_hurt_glow.png (60x80) - Blue vulnerable area overlay
+- impact_effect_light.png (64x64) - Light attack impact
+- impact_effect_heavy.png (96x96) - Heavy attack impact
+- screen_shake_overlay.png (1280x720) - Screen shake visual effect
+
+USER INTERFACE ASSETS
+=====================
+
+HUD ELEMENTS:
+- damage_percentage_bg.png (150x50) - Background for damage counter
+- damage_percentage_frame.png (150x50) - Frame around damage display
+- timer_bg.png (100x40) - Match timer background
+- timer_frame.png (100x40) - Match timer frame
+- player1_indicator.png (60x30) - "P1" label
+- player2_indicator.png (60x30) - "P2" label
+
+MENU GRAPHICS:
+- main_menu_background.png (1280x720) - Title screen background
+- character_select_bg.png (1280x720) - Character selection background
+- stage_select_bg.png (1280x720) - Stage selection background
+- menu_button_normal.png (200x60) - Regular menu button
+- menu_button_hover.png (200x60) - Highlighted menu button
+- menu_button_pressed.png (200x60) - Pressed menu button
+
+KO & RESPAWN EFFECTS:
+- ko_explosion.png (128x128) - Explosion effect for KOs
+- respawn_sparkle.png (80x80) - Sparkle effect for respawning
+- ko_text_overlay.png (300x100) - "KO!" text effect
+
+AUDIO ASSETS
+============
+
+MUSIC:
+- battlefield_theme.ogg (3-5 minutes, looping) - Battlefield stage music
+- plains_theme.ogg (3-5 minutes, looping) - Plains stage music  
+- menu_theme.ogg (2 minutes, looping) - Main menu music
+- character_select_theme.ogg (1 minute, looping) - Character select music
+
+SOUND EFFECTS:
+
+CHARACTER SOUNDS:
+- footstep_01.wav, footstep_02.wav - Walking sounds
+- jump.wav - Jump sound effect
+- land.wav - Landing sound effect
+- hurt_light.wav - Taking light damage
+- hurt_heavy.wav - Taking heavy damage
+
+ATTACK SOUNDS:
+- attack_light_swoosh.wav - Light attack air sound
+- attack_heavy_swoosh.wav - Heavy attack air sound
+- attack_light_hit.wav - Light attack connecting
+- attack_heavy_hit.wav - Heavy attack connecting
+- attack_special_charge.wav - Special attack charging
+- attack_special_release.wav - Special attack release
+
+STAGE SOUNDS:
+- platform_land.wav - Landing on platform
+- blast_zone_ko.wav - Being KO'd by blast zone
+- respawn_sound.wav - Respawning sound
+
+UI SOUNDS:
+- menu_select.wav - Menu option selection
+- menu_confirm.wav - Menu confirmation
+- menu_back.wav - Menu back/cancel
+- timer_warning.wav - Timer running low
+- match_start.wav - Match beginning sound
+
+ENVIRONMENT SOUNDS:
+- battlefield_ambient.ogg (looping) - Battlefield atmosphere
+- plains_wind.ogg (looping) - Plains wind sounds
+- thunder_distant.wav - Occasional thunder (Plains stage)
+
+TECHNICAL SPECIFICATIONS
+========================
+
+IMAGE FORMATS: PNG with transparency support
+AUDIO FORMATS: OGG Vorbis for music, WAV for sound effects
+COLOR DEPTH: 32-bit RGBA for images
+AUDIO QUALITY: 44.1kHz, 16-bit for sound effects; 44.1kHz, compression for music
+
+PRIORITY LEVELS
+==============
+
+HIGH PRIORITY (Core Gameplay):
+- Character sprite sheets (idle, walk, run, jump, fall)
+- Basic attack animations
+- Platform textures for both stages
+- Core sound effects (jumps, attacks, landing)
+
+MEDIUM PRIORITY (Polish):
+- Background layers and parallax elements
+- Attack effect visuals
+- UI graphics and frames
+- Stage music
+
+LOW PRIORITY (Future Enhancements):
+- Advanced particle effects
+- Environmental animations
+- Additional character expressions
+- Menu transitions and effects
+
+NOTES
+=====
+- All character sprites should be designed to work with the current 60x80 collision rectangle
+- Platform textures should tile seamlessly for different platform sizes
+- Sound effects should be normalized to consistent volume levels
+- Background layers should be designed for parallax scrolling at different speeds
+- All assets should maintain a consistent art style across the game
+
+This list represents the complete visual and audio asset pipeline needed
+to transform the current colored-rectangle prototype into a fully realized
+fighting game experience. 

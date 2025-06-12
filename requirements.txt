@@ -1,0 +1,28 @@
+# Super Smash Bros Game Dependencies
+# ===================================
+
+# Core game engine
+pygame==2.5.2
+# Alternative: pygame-ce==2.4.1  # Community edition with additional features
+
+# Math and physics calculations
+numpy==1.24.3
+
+# Image processing (for sprite manipulation)
+Pillow==10.0.0
+
+# Configuration and data handling
+PyYAML==6.0.1
+
+# Development and debugging tools (optional)
+pygame-gui==0.6.9  # For advanced UI components
+pymunk==6.5.2      # Advanced physics engine (if needed for complex collisions)
+
+# Audio processing (if advanced audio features needed)
+# pygame-mixer is included with pygame, but for advanced audio:
+# pydub==0.25.1
+
+# TODO: Consider adding these for advanced features:
+# - Box2D for more realistic physics
+# - OpenGL bindings for 3D effects
+# - networking libraries for online multiplayer 
