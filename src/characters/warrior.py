@@ -167,8 +167,8 @@ class Warrior(Character):
                 'startup_frames': 5,
                 'active_frames': 4,
                 'recovery_frames': 6,
-                'damage': 7,
-                'knockback': 4,
+                'damage': 11,
+                'knockback': 5,
                 'range': 70
             }
         elif direction == 'side':
@@ -180,7 +180,7 @@ class Warrior(Character):
                 'startup_frames': 12,
                 'active_frames': 6,
                 'recovery_frames': 18,
-                'damage': 15,
+                'damage': 13,
                 'knockback': 10,
                 'range': 90
             }
@@ -205,7 +205,7 @@ class Warrior(Character):
                 'startup_frames': 20,  # Longer startup for projectile
                 'active_frames': 5,    # Brief moment to create projectile
                 'recovery_frames': 25, # Can't act while projectile is out
-                'damage': 10,
+                'damage': 16,
                 'knockback': 8,
                 'range': 300,
                 'is_projectile': True

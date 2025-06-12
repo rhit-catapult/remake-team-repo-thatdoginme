@@ -144,7 +144,7 @@ class Heavy(Character):
                 'startup_frames': 5, # Quick startup
                 'active_frames': 30, # Long active to allow for jump
                 'recovery_frames': 30,
-                'damage': 22,
+                'damage': 26,
                 'knockback': 12,
                 'range': 120,  # Wide area
                 'has_shockwave': True
